@@ -443,6 +443,7 @@ import { Badge } from "../components/ui/badge";
 import { ScrollArea } from "../components/ui/scroll-area";
 import { Progress } from "../components/ui/progress";
 import { useNavigate } from 'react-router-dom';
+import { config } from '../config/config';
 
 interface QR {
   _id: string;
@@ -595,7 +596,7 @@ const ProductList: React.FC<GamosaListProps> = ({
                       {qr.claimed ? 'Claimed' : 'Unclaimed'}
                     </Badge>
                     <a
-                      href={`http://localhost:4000/api/products/qr-image/${qr.code}`}
+                      href={`${config.apiUrl}/api/products/qr-image/${qr.code}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-blue-500 hover:text-blue-700"

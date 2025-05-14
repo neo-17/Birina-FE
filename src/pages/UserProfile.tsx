@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../components/ui/button";
 import axios from "axios";
+import { config } from "../config/config";
 
 interface Claims {
   _id: string;
@@ -42,7 +43,7 @@ const UserProfile = () => {
 
     const fetchUserProfile = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/api/users/profile/${username}`, {
+        const response = await axios.get(`${config.apiUrl}/api/users/profile/${username}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -79,7 +80,7 @@ const UserProfile = () => {
     try {
       const token = localStorage.getItem("userToken");
       await axios.post(
-        `http://localhost:4000/api/nft/transfer/${nftId}`,
+        `${config.apiUrl}/api/nft/transfer/${nftId}`,
         { destinationAddress: transferAddress },
         {
           headers: {

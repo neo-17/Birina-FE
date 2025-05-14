@@ -9,6 +9,7 @@ import { Badge } from '../../components/ui/badge';
 import { Separator } from '../../components/ui/separator';
 import ProductForm from '../../admin/ProductForm';
 import { api } from '../../libs/utils';
+import { config } from '../../config/config';
 
 const CONTRACT_ADDRESS = '0xF14236C39ce4598DF38397EF62A6bdAbC5909Bd7'
 
@@ -347,7 +348,7 @@ const ProductsPage = () => {
                                 <Button 
                                   size="sm" 
                                   variant="ghost"
-                                  onClick={() => window.open(`http://localhost:4000/api/gamosas/qr-image/${qr.code}`, '_blank')}
+                                  onClick={() => window.open(`${config.apiUrl}/api/gamosas/qr-image/${qr.code}`, '_blank')}
                                   className="flex items-center gap-1 text-blue-600 hover:text-blue-800"
                                 >
                                   <QrCode className="h-3 w-3" />

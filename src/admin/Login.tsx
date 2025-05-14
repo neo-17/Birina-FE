@@ -7,6 +7,7 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { Alert, AlertDescription } from '../components/ui/alert';
 import { AlertCircle } from 'lucide-react';
+import { config } from '../config/config';
 
 const LoginPage: React.FC = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const LoginPage: React.FC = () => {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/api/admin/login', credentials);
+      const response = await axios.post(`${config.apiUrl}/api/admin/login`, credentials);
 
       localStorage.setItem('adminToken', response.data.token);
       navigate('/admin');

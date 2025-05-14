@@ -7,6 +7,7 @@ import MintNFTButton from '../components/MintNFTButton';
 import { DynamicContextProvider, DynamicWidget, useDynamicContext } from '@dynamic-labs/sdk-react-core';
 import { EthereumWalletConnectors } from '@dynamic-labs/ethereum';
 import { baseSepolia, base } from 'viem/chains';
+import { config } from '../config/config';
 
 const ScanPage = () => {
   const { code } = useParams();
@@ -28,7 +29,7 @@ const ScanPage = () => {
 
   const fetchProductByCode = async (qrCode) => {
     try {
-      const res = await axios.get(`http://localhost:4000/api/gamosas/qr/${qrCode}`);
+      const res = await axios.get(`${config.apiUrl}/api/gamosas/qr/${qrCode}`);
       setProduct(res.data.gamosa);
       setLoading(false);
     } catch (error) {

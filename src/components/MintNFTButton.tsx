@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { Loader2 } from 'lucide-react';
+import { config } from '../config/config';
 
 const MintNFTButton = ({ productId, userAddress, code, network, onSuccess }) => {
   const [isMinting, setIsMinting] = useState(false);
@@ -16,7 +17,7 @@ const MintNFTButton = ({ productId, userAddress, code, network, onSuccess }) => 
       
       // Make the API call with proper authorization header
       const response = await axios.post(
-        'http://localhost:4000/api/nft/mint', 
+        `${config.apiUrl}/api/nft/mint`, 
         {
           productId,
           walletAddress: userAddress,

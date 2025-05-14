@@ -3,6 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/button";
+import { config } from "../config/config";
 
 // Login Page Component
 const LoginPage = () => {
@@ -15,7 +16,7 @@ const LoginPage = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/api/users/login', {
+      const response = await axios.post(`${config.apiUrl}/api/users/login`, {
         username,
         pin
       });
