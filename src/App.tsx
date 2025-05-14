@@ -30,7 +30,7 @@ function App() {
         {/* <Route path="/" element={<Navigate to="/admin" replace />} /> */}
         <Route path="/" element={<HeroPage />} />
         {/* <Route path="/admin" element={<AdminDashboard />} /> */}
-        <Route path="/p/:code" element={<ScanPage />} />
+        <Route path="/qr/:code" element={<ScanPage />} />
         <Route path="/profile/:username" element={<UserProfile />} />
         <Route path='/user/login' element={<UserLoginPage />} />
       </Routes>
