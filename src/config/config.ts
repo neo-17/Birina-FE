@@ -1,10 +1,7 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
-
-const nodeEnv = process.env.NODE_ENV || 'development';
+const nodeEnv = import.meta.env.MODE || 'development';
 
 export const config = {
-    apiUrl: nodeEnv === 'development' ? process.env.DEV_APP_URL : process.env.PROD_APP_URL
-
-}
+    apiUrl: nodeEnv === 'development'
+        ? import.meta.env.DEV_APP_URL
+        : import.meta.env.PROD_APP_URL
+};
