@@ -510,7 +510,7 @@ export default function Home() {
               Blending Assamese heritage with modern technology to protect and promote authentic craftsmanship.
             </p>
             <div className="mt-6 text-sm text-gray-500 italic">
-              Powered by <span className="text-white font-semibold">Web3Assam</span>
+              Supported by <span className="text-white font-semibold">Web3Assam</span>
             </div>
           </div>
 
