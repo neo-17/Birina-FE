@@ -67,19 +67,19 @@ export default function Home() {
             </div>
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg transition-all duration-300 hover:bg-white/10">
-                <p className="text-3xl font-bold text-purple-400 mb-1">100%</p>
+                <p className="text-3xl font-bold text-white-400 mb-1">100%</p>
                 <p className="text-sm text-gray-300">Authentic Handcrafted</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg transition-all duration-300 hover:bg-white/10">
-                <p className="text-3xl font-bold text-purple-400 mb-1">50+</p>
+                <p className="text-3xl font-bold text-white-400 mb-1">50+</p>
                 <p className="text-sm text-gray-300">Artisans Supported</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg transition-all duration-300 hover:bg-white/10">
-                <p className="text-3xl font-bold text-purple-400 mb-1">100+</p>
+                <p className="text-3xl font-bold text-white-400 mb-1">100+</p>
                 <p className="text-sm text-gray-300">NFTs Minted</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm p-4 rounded-lg transition-all duration-300 hover:bg-white/10">
-                <p className="text-3xl font-bold text-purple-400 mb-1">0%</p>
+                <p className="text-3xl font-bold text-white-400 mb-1">0%</p>
                 <p className="text-sm text-gray-300">Carbon Footprint</p>
               </div>
             </div>
@@ -124,62 +124,62 @@ export default function Home() {
               Birina Handmade bridges centuries-old Assamese gamusa traditions with Web3 technology,
               ensuring authenticity, traceability and supporting local artisans.
             </p>
-            <h3 className="text-xl font-semibold mb-4 text-purple-800">Our Heritage Mission</h3>
+            <h3 className="text-xl font-semibold mb-4 text-white-800">Our Heritage Mission</h3>
             <p className="mb-8 text-gray-700 leading-relaxed">
               Birina Handmade preserves the iconic Assamese gamusa – a handwoven cloth symbolizing
               cultural identity and heritage across generations.
             </p>
             <ul className="space-y-6">
               <li className="flex gap-4 items-start group">
-                <span className="text-purple-600 bg-purple-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-purple-200">&#9989;</span>
+                <span className="text-white-600 bg-white-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-white-200">&#9989;</span>
                 <div>
-                  <span className="font-semibold block mb-1 text-purple-900">Authentic Craftsmanship</span>
+                  <span className="font-semibold block mb-1 text-white-900">Authentic Craftsmanship</span>
                   <span className="text-gray-700">Traditional methods preserved through digital certification on the blockchain.</span>
                 </div>
               </li>
               <li className="flex gap-4 items-start group">
-                <span className="text-purple-600 bg-purple-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-purple-200">&#128101;</span>
+                <span className="text-white-600 bg-white-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-white-200">&#128101;</span>
                 <div>
-                  <span className="font-semibold block mb-1 text-purple-900">Community Empowerment</span>
+                  <span className="font-semibold block mb-1 text-white-900">Community Empowerment</span>
                   <span className="text-gray-700">Supporting marginalized weavers and artisans through sustainable business practices.</span>
                 </div>
               </li>
               <li className="flex gap-4 items-start group">
-                <span className="text-purple-600 bg-purple-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-purple-200">&#128640;</span>
+                <span className="text-white-600 bg-white-100 p-2 rounded-full flex-shrink-0 mt-1 transition-all duration-300 group-hover:bg-white-200">&#128640;</span>
                 <div>
-                  <span className="font-semibold block mb-1 text-purple-900">Blockchain Innovation</span>
+                  <span className="font-semibold block mb-1 text-white-900">Blockchain Innovation</span>
                   <span className="text-gray-700">Each piece is traceable on Base blockchain, bringing traditional crafts into the Web3 era.</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-8 rounded-xl shadow-lg border border-gray-200">
-            <h3 className="text-xl font-bold mb-6 text-purple-800 relative inline-block">
+            <h3 className="text-xl font-bold mb-6 text-white-800 relative inline-block">
               Bridging Tradition & Technology
-              <span className="absolute bottom-0 left-0 w-16 h-1 bg-purple-400"></span>
+              <span className="absolute bottom-0 left-0 w-16 h-1 bg-white-400"></span>
             </h3>
             <ul className="space-y-6">
               <li className="group">
-                <strong className="text-purple-700 block mb-2">01 <span className="border-b border-purple-300 pb-1">Traditional Heritage</span></strong>
+                <strong className="text-white-700 block mb-2">01 <span className="border-b border-white-300 pb-1">Traditional Heritage</span></strong>
                 <p className="text-gray-700 pl-6">The iconic gamusa has been central to Assamese identity for centuries.</p>
               </li>
               <li className="group">
-                <strong className="text-purple-700 block mb-2">02 <span className="border-b border-purple-300 pb-1">Artisan Empowerment</span></strong>
+                <strong className="text-white-700 block mb-2">02 <span className="border-b border-white-300 pb-1">Artisan Empowerment</span></strong>
                 <p className="text-gray-700 pl-6">We work with over 100 weavers, mostly women from marginalized communities.</p>
               </li>
               <li className="group">
-                <strong className="text-purple-700 block mb-2">03 <span className="border-b border-purple-300 pb-1">Blockchain Verification</span></strong>
+                <strong className="text-white-700 block mb-2">03 <span className="border-b border-white-300 pb-1">Blockchain Verification</span></strong>
                 <p className="text-gray-700 pl-6">NFT certificates on Base blockchain ensure authenticity and provenance.</p>
               </li>
               <li className="group">
-                <strong className="text-purple-700 block mb-2">04 <span className="border-b border-purple-300 pb-1">Global Accessibility</span></strong>
+                <strong className="text-white-700 block mb-2">04 <span className="border-b border-white-300 pb-1">Global Accessibility</span></strong>
                 <p className="text-gray-700 pl-6">Web3 technology connects local artisans to the global marketplace.</p>
               </li>
             </ul>
             <div className="mt-8 text-sm text-gray-500 bg-white p-4 rounded-lg border border-gray-200 flex justify-between">
-              <span>Since <strong className="text-purple-700">2018</strong></span>
-              <span>Artisans: <strong className="text-purple-700">50+</strong></span>
-              <span>NFTs Created: <strong className="text-purple-700">100+</strong></span>
+              <span>Since <strong className="text-white-700">2018</strong></span>
+              <span>Artisans: <strong className="text-white-700">50+</strong></span>
+              <span>NFTs Created: <strong className="text-white-700">100+</strong></span>
             </div>
           </div>
         </div>
@@ -194,14 +194,14 @@ export default function Home() {
           <div className="transform transition-all duration-1000 translate-y-0">
             <h2 className="text-3xl font-bold mb-6 relative inline-block">
               Authenticating Cultural Heritage with Base Blockchain
-              <span className="absolute bottom-0 left-0 w-16 h-1 bg-purple-500"></span>
+              <span className="absolute bottom-0 left-0 w-16 h-1 bg-white-500"></span>
             </h2>
             <p className="mb-8 text-gray-300 leading-relaxed">
               Each Birina Handmade product includes a unique QR code linked to a
               digital certificate (NFT) on the Base blockchain.
             </p>
             <div className="bg-gray-900/80 backdrop-blur-sm p-8 rounded-xl mb-8 shadow-lg border border-gray-800">
-              <h3 className="text-lg font-semibold mb-6 text-purple-400">How Our Blockchain Verification Works:</h3>
+              <h3 className="text-lg font-semibold mb-6 text-white-400">How Our Blockchain Verification Works:</h3>
               <ol className="list-decimal pl-6 space-y-4 text-gray-300">
                 <li className="pb-2 border-b border-gray-800">Each gamusa is assigned a unique digital identity when created</li>
                 <li className="pb-2 border-b border-gray-800">Artisan information, creation date, and product details are recorded</li>
@@ -210,20 +210,20 @@ export default function Home() {
               </ol>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-purple-500 group">
-                <h4 className="font-semibold mb-2 text-white group-hover:text-purple-400 transition-colors duration-300">Guaranteed Authenticity</h4>
+              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-white-500 group">
+                <h4 className="font-semibold mb-2 text-white group-hover:text-white-400 transition-colors duration-300">Guaranteed Authenticity</h4>
                 <p className="text-gray-300">Verify that your product is a genuine handcrafted Birina creation.</p>
               </div>
-              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-purple-500 group">
-                <h4 className="font-semibold mb-2 text-white group-hover:text-purple-400 transition-colors duration-300">Complete Traceability</h4>
+              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-white-500 group">
+                <h4 className="font-semibold mb-2 text-white group-hover:text-white-400 transition-colors duration-300">Complete Traceability</h4>
                 <p className="text-gray-300">Track the journey of your gamusa from artisan to your hands.</p>
               </div>
-              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-purple-500 group">
-                <h4 className="font-semibold mb-2 text-white group-hover:text-purple-400 transition-colors duration-300">Artisan Recognition</h4>
+              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-white-500 group">
+                <h4 className="font-semibold mb-2 text-white group-hover:text-white-400 transition-colors duration-300">Artisan Recognition</h4>
                 <p className="text-gray-300">Know the artisan behind your gamusa and support their craft.</p>
               </div>
-              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-purple-500 group">
-                <h4 className="font-semibold mb-2 text-white group-hover:text-purple-400 transition-colors duration-300">Digital Ownership</h4>
+              <div className="bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:border-white-500 group">
+                <h4 className="font-semibold mb-2 text-white group-hover:text-white-400 transition-colors duration-300">Digital Ownership</h4>
                 <p className="text-gray-300">Receive a digital certificate of ownership with your purchase.</p>
               </div>
             </div>
@@ -270,13 +270,13 @@ export default function Home() {
                 quote: 'Using traditional natural dyes preserves our heritage and creates sustainable textiles that tell our story to the world.'
               }
             ].map((artisan, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-300 transition-all duration-300 hover:-translate-y-1 group">
-                <div className="bg-gradient-to-br from-gray-200 to-gray-300 h-48 mb-6 rounded-lg flex items-center justify-center text-gray-400 overflow-hidden relative group-hover:from-purple-100 group-hover:to-purple-200 transition-all duration-500">
+              <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-300 transition-all duration-300 hover:-translate-y-1 group">
+                <div className="bg-gradient-to-br from-gray-200 to-gray-300 h-48 mb-6 rounded-lg flex items-center justify-center text-gray-400 overflow-hidden relative group-hover:from-white-100 group-hover:to-white-200 transition-all duration-500">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <img src={artisan.image} alt={artisan.name} className="w-full h-full object-cover" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-1 text-purple-900">{artisan.name}</h4>
+                <h4 className="text-lg font-semibold mb-1 text-white-900">{artisan.name}</h4>
                 <p className="text-sm text-gray-600 mb-3 border-b border-gray-200 pb-3">{artisan.title}</p>
                 <p className="text-sm italic text-gray-700">"{artisan.quote}"</p>
               </div>
@@ -285,9 +285,9 @@ export default function Home() {
 
           {/* <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-purple-700 mb-6 relative inline-block">
+              <h3 className="text-2xl font-bold text-white-700 mb-6 relative inline-block">
                 Empowering Communities Through Craft
-                <span className="absolute bottom-0 left-0 w-16 h-1 bg-purple-400"></span>
+                <span className="absolute bottom-0 left-0 w-16 h-1 bg-white-400"></span>
               </h3>
               <p className="mb-6 text-gray-700 leading-relaxed">
                 Birina Handmade operates as a cluster-based social enterprise, collaborating
@@ -299,26 +299,26 @@ export default function Home() {
                 cultural heritage while achieving financial independence and supporting their
                 families.
               </p>
-              <div className="grid grid-cols-2 gap-6 bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-xl shadow-md border border-purple-100">
-                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                  <p className="text-2xl font-bold text-purple-600 mb-1">200+</p>
+              <div className="grid grid-cols-2 gap-6 bg-gradient-to-br from-indigo-50 to-white-50 p-8 rounded-xl shadow-md border border-white-100">
+                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-white-100">
+                  <p className="text-2xl font-bold text-white-600 mb-1">200+</p>
                   <p className="text-sm text-gray-600">Artisans Employed</p>
                 </div>
-                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                  <p className="text-2xl font-bold text-purple-600 mb-1">85%</p>
+                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-white-100">
+                  <p className="text-2xl font-bold text-white-600 mb-1">85%</p>
                   <p className="text-sm text-gray-600">Women Artisans</p>
                 </div>
-                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                  <p className="text-2xl font-bold text-purple-600 mb-1">40%</p>
+                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-white-100">
+                  <p className="text-2xl font-bold text-white-600 mb-1">40%</p>
                   <p className="text-sm text-gray-600">Income Increase</p>
                 </div>
-                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                  <p className="text-2xl font-bold text-purple-600 mb-1">15+</p>
+                <div className="text-center bg-white p-4 rounded-lg shadow-sm border border-white-100">
+                  <p className="text-2xl font-bold text-white-600 mb-1">15+</p>
                   <p className="text-sm text-gray-600">Villages Reached</p>
                 </div>
               </div>
               <div className="mt-8">
-                <a href="#" className="text-purple-600 hover:text-purple-800 font-medium flex items-center gap-1 transition-all duration-300 hover:gap-2">
+                <a href="#" className="text-white-600 hover:text-white-800 font-medium flex items-center gap-1 transition-all duration-300 hover:gap-2">
                   Learn about our social impact
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -326,10 +326,10 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg border border-purple-200">
-              <h3 className="text-lg font-semibold text-purple-800 mb-6 relative inline-block">
+            <div className="bg-gradient-to-br from-white-50 to-white-100 p-8 rounded-xl shadow-lg border border-white-200">
+              <h3 className="text-lg font-semibold text-white-800 mb-6 relative inline-block">
                 Support Our Artisan Community
-                <span className="absolute bottom-0 left-0 w-12 h-1 bg-purple-400"></span>
+                <span className="absolute bottom-0 left-0 w-12 h-1 bg-white-400"></span>
               </h3>
               <ul className="space-y-4 text-gray-700">
                 <li className="flex gap-3 items-start group">
@@ -346,7 +346,7 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-8">
-                <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 py-3 rounded-md font-semibold w-full shadow-lg hover:shadow-purple-300/30 transition-all duration-300 transform hover:-translate-y-1">
+                <button className="bg-gradient-to-r from-white-600 to-white-700 hover:from-white-700 hover:to-white-800 text-white px-6 py-3 rounded-md font-semibold w-full shadow-lg hover:shadow-white-300/30 transition-all duration-300 transform hover:-translate-y-1">
                   Support Our Artisans
                 </button>
               </div>
@@ -365,31 +365,31 @@ export default function Home() {
           <p className="text-center mb-16 text-gray-600">Why our blockchain verification matters</p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-20">
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-purple-300 transition-all duration-300 hover:-translate-y-1 group">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-all duration-300">
-                <svg className="w-8 h-8 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-white-300 transition-all duration-300 hover:-translate-y-1 group">
+              <div className="bg-white-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-white-200 transition-all duration-300">
+                <svg className="w-8 h-8 text-white-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                 </svg>
               </div>
-              <h3 className="font-semibold text-xl mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">Guaranteed Authenticity</h3>
+              <h3 className="font-semibold text-xl mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">Guaranteed Authenticity</h3>
               <p className="text-gray-600 leading-relaxed">Instantly confirm that your gamusa is a genuine Birina product, handwoven by verified artisans using traditional methods.</p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-purple-300 transition-all duration-300 hover:-translate-y-1 group">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-all duration-300">
-                <svg className="w-8 h-8 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-white-300 transition-all duration-300 hover:-translate-y-1 group">
+              <div className="bg-white-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-white-200 transition-all duration-300">
+                <svg className="w-8 h-8 text-white-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                 </svg>
               </div>
-              <h3 className="font-semibold text-xl mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">Artisan Connection</h3>
+              <h3 className="font-semibold text-xl mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">Artisan Connection</h3>
               <p className="text-gray-600 leading-relaxed">Learn about the artisan who created your product, their story, and how your purchase supports their livelihood.</p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-purple-300 transition-all duration-300 hover:-translate-y-1 group">
-              <div className="bg-purple-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-all duration-300">
-                <svg className="w-8 h-8 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:border-white-300 transition-all duration-300 hover:-translate-y-1 group">
+              <div className="bg-white-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-white-200 transition-all duration-300">
+                <svg className="w-8 h-8 text-white-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                 </svg>
               </div>
-              <h3 className="font-semibold text-xl mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">Digital Ownership</h3>
+              <h3 className="font-semibold text-xl mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">Digital Ownership</h3>
               <p className="text-gray-600 leading-relaxed">Receive a digital certificate of ownership that can be transferred if you gift or sell your gamusa to someone else.</p>
             </div>
           </div>
@@ -410,7 +410,7 @@ export default function Home() {
               <p className="text-yellow-500 text-2xl mb-4 flex">★★★★★</p>
               <p className="text-gray-700 leading-relaxed mb-6">"As a collector of traditional textiles, I love that I can verify the authenticity of my gamusa. The blockchain certificate adds real value and connects me to the artisan who created it."</p>
               <div className="flex items-center">
-                <div className="bg-yellow-200 h-10 w-10 rounded-full flex items-center justify-center text-yellow-700 font-semibold text-sm mr-3">RK</div>
+                <div className="bg-yellow-200 h-10 w-10 rounded-full flex items-center justify-center text-yellow-700 font-semibold text-sm mr-3">JB</div>
                 <div>
                   <p className="font-semibold text-gray-900">Jesu Neelkamal Borah</p>
                   <p className="text-xs text-gray-500 flex items-center gap-1">
@@ -428,7 +428,7 @@ export default function Home() {
               <p className="text-yellow-500 text-2xl mb-4 flex">★★★★★</p>
               <p className="text-gray-700 leading-relaxed mb-6">"I love being able to trace my gamusa back to the artisan. The blockchain verification was easy to use, even though I'm not tech-savvy. It's a brilliant way to protect cultural crafts."</p>
               <div className="flex items-center">
-                <div className="bg-yellow-200 h-10 w-10 rounded-full flex items-center justify-center text-yellow-700 font-semibold text-sm mr-3">SP</div>
+                <div className="bg-yellow-200 h-10 w-10 rounded-full flex items-center justify-center text-yellow-700 font-semibold text-sm mr-3">SI</div>
                 <div>
                   <p className="font-semibold text-gray-900">Sheikh Rezaul Islam</p>
                   <p className="text-xs text-gray-500 flex items-center gap-1">
@@ -446,29 +446,29 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-2">
             Frequently Asked Questions
-            <span className="block mx-auto w-16 h-1 bg-purple-500 mt-2"></span>
+            <span className="block mx-auto w-16 h-1 bg-white-500 mt-2"></span>
           </h2>
           <p className="text-center text-gray-600 mb-12">Everything you need to know about our products and blockchain verification</p>
 
           <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-200 transition-all duration-300 group">
-              <h3 className="text-lg font-semibold mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">What is a gamusa?</h3>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-200 transition-all duration-300 group">
+              <h3 className="text-lg font-semibold mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">What is a gamusa?</h3>
               <p className="text-gray-700 leading-relaxed">A gamusa is a traditional handwoven Assamese cloth, often used as a sign of respect and cultural pride. Each one is crafted with unique patterns and deep cultural significance.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-200 transition-all duration-300 group">
-              <h3 className="text-lg font-semibold mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">How do I verify my gamusa?</h3>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-200 transition-all duration-300 group">
+              <h3 className="text-lg font-semibold mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">How do I verify my gamusa?</h3>
               <p className="text-gray-700 leading-relaxed">Each Birina gamusa comes with a QR code or NFC tag. Simply scan the code or tap with your phone to view the digital certificate of authenticity on the Algorand blockchain.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-200 transition-all duration-300 group">
-              <h3 className="text-lg font-semibold mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">What makes Birina Handmade different?</h3>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-200 transition-all duration-300 group">
+              <h3 className="text-lg font-semibold mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">What makes Birina Handmade different?</h3>
               <p className="text-gray-700 leading-relaxed">We combine tradition and technology by certifying every handcrafted gamusa on the blockchain. This ensures authenticity while directly supporting Assamese artisans.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-200 transition-all duration-300 group">
-              <h3 className="text-lg font-semibold mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">Is blockchain verification eco-friendly?</h3>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-200 transition-all duration-300 group">
+              <h3 className="text-lg font-semibold mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">Is blockchain verification eco-friendly?</h3>
               <p className="text-gray-700 leading-relaxed">Yes. We use the Algorand blockchain, which is carbon-negative and highly energy-efficient, making it an ideal choice for sustainable digital certification.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-purple-200 transition-all duration-300 group">
-              <h3 className="text-lg font-semibold mb-3 text-purple-900 group-hover:text-purple-700 transition-colors duration-300">Can I gift or resell my gamusa?</h3>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:border-white-200 transition-all duration-300 group">
+              <h3 className="text-lg font-semibold mb-3 text-white-900 group-hover:text-white-700 transition-colors duration-300">Can I gift or resell my gamusa?</h3>
               <p className="text-gray-700 leading-relaxed">Absolutely. The digital certificate can be transferred on the blockchain, preserving ownership history and maintaining its authenticity across owners.</p>
             </div>
           </div>

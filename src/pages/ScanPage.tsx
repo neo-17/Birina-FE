@@ -89,10 +89,10 @@ const ScanPage = () => {
               Base Mainnet
             </button> */}
           </div>
-          
+
           {/* Show mint button once wallet is connected */}
           <div className="mt-4">
-            <MintNFTButton 
+            <MintNFTButton
               productId={product?._id}
               userAddress={primaryWallet.address}
               code={code}
@@ -174,11 +174,11 @@ const ScanPage = () => {
             </div>
 
             <button
-                  onClick={nextStep}
-                  className="w-full mt-6 bg-white text-red-600 py-3 px-4 rounded-xl font-medium hover:bg-white/90 transition-colors"
-                >
-                  Continue
-                </button>
+              onClick={nextStep}
+              className="w-full mt-6 bg-white text-red-600 py-3 px-4 rounded-xl font-medium hover:bg-white/90 transition-colors"
+            >
+              Continue
+            </button>
           </motion.div>
         );
 
@@ -199,9 +199,6 @@ const ScanPage = () => {
                   alt="Traditional Gamusa"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h2 className="text-4xl font-bold text-white text-center">Heritage</h2>
-                </div>
               </div>
 
               <div className="p-6">
@@ -231,35 +228,54 @@ const ScanPage = () => {
             variants={slideVariants}
             className="w-full max-w-md mx-auto"
           >
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 shadow-xl">
-              <div className="relative w-full h-48 object-cover">
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h3 className="text-white text-xl font-bold">{product?.weaverName || "Lakshmi Devi"}</h3>
-                  <p className="text-white/80 text-sm">Master Weaver • {product?.village || "Sualkuchi"}, Assam</p>
-                </div>
+
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 shadow-xl relative">
+              {/* Background image with overlay */}
+              <div className="absolute inset-0 z-0">
+                <img
+                  src={`/Images/${product?.weaverName}.png`}
+                  alt="Traditional Gamusa Background"
+                  className="w-full h-full object-cover opacity-20"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-purple-900/60 via-red-900/60 to-black/70 mix-blend-multiply"></div>
               </div>
 
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="bg-white/20 px-3 py-1 rounded-full text-white text-xs">
-                    15+ Years Experience
-                  </div>
-                  <div className="bg-white/20 px-3 py-1 rounded-full text-white text-xs">
-                    Traditional Methods
+              {/* Content container with z-index to appear above the background */}
+              <div className="relative z-10">
+                <div className="relative w-full h-48 overflow-hidden">
+                  <img
+                    src={`/Images/${product?.weaverName}.png`}
+                    alt="Traditional Gamusa"
+                    className="w-48 h-48 object-cover mx-auto shadow-2xl transform hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                    <h3 className="text-white text-xl font-bold">{product?.weaverName || "Lakshmi Devi"}</h3>
+                    <p className="text-white/80 text-sm">Master Weaver • {product?.village || "Sualkuchi"}, Assam</p>
                   </div>
                 </div>
 
-                <p className="text-white text-lg leading-relaxed">
-                  Your Gamusa was handcrafted by a master artisan using traditional looms and techniques
-                  preserved through generations.
-                </p>
+                <div className="p-6">
+                  <div className="flex flex-wrap items-center gap-2 mb-4">
+                    <div className="bg-white/20 px-3 py-1 rounded-full text-white text-xs backdrop-blur-sm">
+                      15+ Years Experience
+                    </div>
+                    <div className="bg-white/20 px-3 py-1 rounded-full text-white text-xs backdrop-blur-sm">
+                      Traditional Methods
+                    </div>
+                  </div>
 
-                <button
-                  onClick={nextStep}
-                  className="w-full mt-6 bg-white text-red-600 py-3 px-4 rounded-xl font-medium hover:bg-white/90 transition-colors"
-                >
-                  View More Details
-                </button>
+                  <p className="text-white text-lg leading-relaxed">
+                    Your Gamusa was handcrafted by a master artisan using traditional looms and techniques
+                    preserved through generations.
+                  </p>
+
+                  <button
+                    onClick={nextStep}
+                    className="w-full mt-6 bg-white text-red-600 py-3 px-4 rounded-xl font-medium hover:bg-white/90 transition-colors"
+                  >
+                    View More Details
+                  </button>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -355,7 +371,7 @@ const ScanPage = () => {
                     <li className="flex items-center gap-2">✅ Digital proof of ownership</li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20 shadow-xl">
                   <WalletConnector />
                   {error && <p className="text-red-200 text-sm mt-4">{error}</p>}
@@ -392,12 +408,12 @@ const ScanPage = () => {
                   </span>
                 </div>
                 <p className="text-white/60 text-xs truncate">
-                Contract: {mintData.receipt.to}
+                  Contract: {mintData.receipt.to}
                 </p>
                 {mintData?.tokenId && (
-                <p className="text-white/60 text-xs mt-1">
-                  Token ID: #{mintData.tokenId}
-                </p>
+                  <p className="text-white/60 text-xs mt-1">
+                    Token ID: #{mintData.tokenId}
+                  </p>
                 )}
                 <p className="text-red/60 text-xs mt-4">Kindly, use the Token ID & Contract Address to import NFT to Your wallet address.</p>
               </div>
@@ -406,19 +422,31 @@ const ScanPage = () => {
                 onClick={() => navigate('/')}
                 className="w-full bg-white text-red-600 py-3 px-4 rounded-xl font-medium hover:bg-white/90 transition-colors"
               >
-                Congratulations 🎉 
+                Congratulations 🎉
               </button>
               {/* Add a button to view on block explorer */}
               {mintData?.txHash && (
-                <a 
-                  href={`${network === 'baseMainnet' ? 
-                    'https://basescan.org/tx/' : 
+                <a
+                  href={`${network === 'baseMainnet' ?
+                    'https://basescan.org/tx/' :
                     'https://sepolia.basescan.org/tx/'}${mintData.txHash}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block mt-3 text-white/80 hover:text-white text-sm underline"
                 >
                   View on Block Explorer
+                </a>
+              )}
+              {mintData?.txHash && (
+                <a
+                  href={`${network === 'baseMainnet' ?
+                    'https://basescan.org/tx/' :
+                    'https://testnets.opensea.io/assets/base_sepolia/'}${mintData.receipt.to}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mt-3 text-white/80 hover:text-white text-sm underline"
+                >
+                  View on OpenSea
                 </a>
               )}
             </div>
@@ -486,14 +514,24 @@ const ScanPage = () => {
           {renderStep()}
         </div>
 
-        {step > 0 && (
+        {step > 0 && step !== 5 && (
           <button
-            onClick={() => navigate('/')}
+            onClick={() => setStep(step - 1)}
             className="mt-6 text-white/80 hover:text-white text-sm underline z-10"
           >
-            Explore More
+            Go Back
           </button>
         )}
+        {
+          step === 5 && (
+            <button
+              onClick={() => navigate('/')}
+              className="mt-6 text-white/80 hover:text-white text-sm underline z-10"
+            >
+              Explore More
+            </button>
+          )
+        }
       </div>
     </DynamicContextProvider>
   );
